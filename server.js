@@ -25,7 +25,7 @@ var server = http.createServer(function(req, res) {
 
     // 判斷pathname是否為預設路徑
     if (pathname === "/" || pathname === "/index.htm") {
-        pathname = 'index.html';
+        pathname = 'selfintro.html';
     }
 
     // __dirname 是程式的路徑
